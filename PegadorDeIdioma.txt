@@ -1,0 +1,8 @@
+public class PegadorDeIdioma {
+	public static void main (String[] args){
+		Locale defaultLocale = Locale.getDefault();
+		String language = defaultLocale.getLanguage();
+		System.out.print("O idioma é: " + language);
+	}
+
+}
